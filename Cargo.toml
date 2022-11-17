@@ -1,0 +1,16 @@
+[package]
+name = "mytimesync"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.23"
+env_logger = "0.9.3"
+lazy_static = "1.4.0"
+log = "0.4.17"
+regex = "1.7.0"
+serialport = "4.2.0"
+windows = "0.43.0"
+wmi = "0.11.3"
